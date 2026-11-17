@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Portfolio of Hafiz Ebaad Ullah Khan, a web development student building modern and responsive websites."
+    />
+
+    <title>Ebaad Ullah | Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- MOBILE MENU CONTROL -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+    <!-- HEADER -->
+    <header class="navbar">
+      <a href="#home" class="logo">EBAAD<span>.</span></a>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">
+          Let's Talk
+          <svg
+            class="icon arrow-up"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m4.5 19.5 15-15M8.25 4.5H19.5v11.25" />
+          </svg>
+        </a>
+      </nav>
+
+      <label
+        for="menu-toggle"
+        class="menu-button menu-open"
+        aria-label="Open menu"
+      >
+        <svg
+          class="icon menu-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </label>
+
+      <label
+        for="menu-toggle"
+        class="menu-button menu-close"
+        aria-label="Close menu"
+      >
+        <svg
+          class="icon close-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </label>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-top">
+          <span>PORTFOLIO / 2026</span>
+          <span>BASED IN PAKISTAN</span>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">HELLO, I'M HAFIZ EBAAD ULLAH KHAN</p>
+
+          <h1>
+            BUILDING<br />
+            THE <span>WEB.</span>
+          </h1>
+
+          <div class="hero-bottom">
+            <p>
+              A passionate web development student focused on creating modern,
+              responsive and meaningful digital experiences.
+            </p>
+
+            <a href="#projects" class="outline-button">
+              VIEW MY WORK
+
+              <svg
+                class="icon arrow-right"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-line"></div>
+
+        <div class="hero-footer">
+          <span>HTML / CSS / JAVASCRIPT</span>
+          <span>CREATIVE DEVELOPMENT</span>
+
+          <a href="#about" class="scroll-link">
+            SCROLL TO EXPLORE
+
+            <svg
+              class="icon arrow-down"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section-padding" id="about">
+        <div class="section-label">
+          <span>01 / ABOUT ME</span>
+          <span>GET TO KNOW ME</span>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <img src="profile.jpg" alt="Portrait of Ebaad Ullah" />
+
+            <div class="image-caption">
+              <span>THE DEVELOPER</span>
+              <span>PAKISTAN</span>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p class="eyebrow">A LITTLE INTRODUCTION</p>
+
+            <h2>
+              Turning ideas<br />
+              into <span>digital</span><br />
+              experiences.
+            </h2>
+
+            <p class="description">
+              I am Hafiz Ebaad Ullah Khan, a passionate web development student
+              learning to build modern and responsive websites. I enjoy creating
+              clean interfaces, exploring new technologies and improving my
+              skills through practical projects.
+            </p>
+
+            <a href="#contact" class="text-link">
+              LET'S CONNECT
+
+              <svg
+                class="icon arrow-up"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m4.5 19.5 15-15M8.25 4.5H19.5v11.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="skills section-padding" id="skills">
+        <div class="section-label">
+          <span>02 / MY EXPERTISE</span>
+          <span>WHAT I WORK WITH</span>
+        </div>
+
+        <h2 class="section-heading">MY TECH <span>STACK.</span></h2>
+
+        <div class="skills-grid">
+          <article class="skill">
+            <span class="skill-number">01</span>
+            <h3>HTML5</h3>
+            <p>Structure & Semantics</p>
+            <span class="skill-symbol">01</span>
+          </article>
+
+          <article class="skill">
+            <span class="skill-number">02</span>
+            <h3>CSS3</h3>
+            <p>Design & Styling</p>
+            <span class="skill-symbol">02</span>
+          </article>
+
+          <article class="skill">
+            <span class="skill-number">03</span>
+            <h3>JavaScript</h3>
+            <p>Currently Learning</p>
+            <span class="skill-symbol">03</span>
+          </article>
+
+          <article class="skill">
+            <span class="skill-number">04</span>
+            <h3>Responsive</h3>
+            <p>Mobile First Design</p>
+            <span class="skill-symbol">04</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects section-padding" id="projects">
+        <div class="section-label">
+          <span>03 / SELECTED WORK</span>
+          <span>THINGS I'VE BUILT</span>
+        </div>
+
+        <h2 class="section-heading">SELECTED <span>PROJECTS.</span></h2>
+
+        <p class="projects-intro">
+          A few projects from my web development journey.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <a
+              href="https://ebadullahkhan-tech.github.io/SMIT-saylani-mass-it-training-assingment/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-preview-link"
+            >
+              <div class="project-visual project-one">
+                <span class="visual-number">PROJECT / 01</span>
+                <span class="visual-name">SMIT</span>
+                <span class="visual-bottom">WEBSITE CLONE</span>
+              </div>
+            </a>
+
+            <div class="project-info">
+              <div>
+                <p>WEB DEVELOPMENT</p>
+                <h3>
+                  <a
+                    href="https://ebadullahkhan-tech.github.io/SMIT-saylani-mass-it-training-assingment/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-title-link"
+                    >SMIT Website Clone</a
+                  >
+                </h3>
+              </div>
+
+              <a
+                href="https://ebadullahkhan-tech.github.io/SMIT-saylani-mass-it-training-assingment/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                aria-label="Open SMIT Website"
+              >
+                <svg
+                  class="icon arrow-up"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m4.5 19.5 15-15M8.25 4.5H19.5v11.25" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- POSITIVUS PROJECT -->
+          <article class="project-card">
+            <a
+              href="https://ebadullahkhan-tech.github.io/Positivus---Digital-Marketing-Agency/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-preview-link"
+            >
+              <div class="project-visual project-two">
+                <span class="visual-number">PROJECT / 02</span>
+                <span class="visual-name">POSITIVUS</span>
+                <span class="visual-bottom">DIGITAL AGENCY</span>
+              </div>
+            </a>
+
+            <div class="project-info">
+              <div>
+                <p>LANDING PAGE DESIGN</p>
+                <h3>
+                  <a
+                    href="https://ebadullahkhan-tech.github.io/Positivus---Digital-Marketing-Agency/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-title-link"
+                    >Positivus Landing Page</a
+                  >
+                </h3>
+              </div>
+
+              <a
+                href="https://ebadullahkhan-tech.github.io/Positivus---Digital-Marketing-Agency/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                aria-label="Open Positivus Website"
+              >
+                bsxjashb
+                <svg
+                  class="icon arrow-up"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m4.5 19.5 15-15M8.25 4.5H19.5v11.25" />
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section-padding" id="contact">
+        <div class="section-label">
+          <span>04 / GET IN TOUCH</span>
+          <span>HAVE A PROJECT IN MIND?</span>
+        </div>
+
+        <p class="eyebrow">LET'S CREATE SOMETHING GREAT</p>
+
+        <h2>
+          HAVE AN IDEA?<br />
+          LET'S <span>BUILD IT.</span>
+        </h2>
+
+        <a href="mailto:ebadullahkhan403@gmail.com" class="contact-button">
+          SAY HELLO
+
+          <svg
+            class="icon arrow-up"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m4.5 19.5 15-15M8.25 4.5H19.5v11.25" />
+          </svg>
+        </a>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/ebadullahkhan-tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+          >
+            <svg
+              class="icon social-icon"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 .1.73 2.44 4.03 1.7.1-.73.4-1.23.72-1.52-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.08 1.14a10.7 10.7 0 0 1 5.6 0c2.13-1.44 3.08-1.14 3.08-1.14.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3 0 4.27-2.6 5.21-5.08 5.49.4.35.76 1.02.76 2.06v3.37c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"
+              />
+            </svg>
+
+            GITHUB
+
+            <svg
+              class="icon arrow-up"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m4.5 19.5 15-15M8.25 4.5H19.5v11.25" />
+            </svg>
+          </a>
+
+          <a href="mailto:ebadullahkhan403@gmail.com" class="social-link">
+            <svg
+              class="icon social-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+              />
+            </svg>
+
+            EMAIL
+
+            <svg
+              class="icon arrow-up"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m4.5 19.5 15-15M8.25 4.5H19.5v11.25" />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <a href="#home" class="logo">EBAAD<span>.</span></a>
+
+      <p>DESIGNED & BUILT WITH PASSION.</p>
+
+      <p>&copy; 2026 EBAAD ULLAH KHAN</p>
+    </footer>
+  </body>
+</html>
