@@ -763,18 +763,3 @@ footer p {
     text-align: center;
   }
 }
-
-@media (max-width: 380px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-top span:last-child,
-  .hero-footer span:nth-child(2) {
-    display: none;
-  }
-
-  .hero h1 {
-    font-size: 56px;
-  }
-}
