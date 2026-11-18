@@ -115,6 +115,8 @@ a:hover .arrow-down {
 .nav-links .nav-contact:hover {
   background: var(--blue);
   border-color: var(--blue);
+  color: white;
+  opacity: 1;
 }
 
 .nav-contact .icon {
